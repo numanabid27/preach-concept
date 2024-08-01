@@ -10,6 +10,7 @@ import cost from "@/assets/images/cost.svg";
 import Image from "next/image";
 import practice from "@/assets/images/best-practice.png"
 import ChooseUs from "../common/choose-us";
+import { Partners } from "../common/partners";
 
 export function Home() {
   const services_Data = [
@@ -117,6 +118,9 @@ export function Home() {
       </section>
 
       <ChooseUs />
+      <div className={styles.partner_Sec}>
+        <Partners />
+      </div>
     </>
   );
 }

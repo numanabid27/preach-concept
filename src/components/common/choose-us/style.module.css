@@ -8,7 +8,36 @@
 .choose_row{
     display: flex;
     margin-top: 25px;
+    gap: 32px;
+    align-items: center;
 }
 .choose_col{
     width: 49%;
+}
+.choose_col2{
+    width: 49%;
+}
+.choose__inner_row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+   
+}
+
+.choose__inner_col{
+    width: 46%;
+   
+}
+.choose__inner_col img{
+    width: fit-content;
+}
+.choose__inner_col h6{
+    color: #000000CC;
+    font-size: 20px;
+    padding: 13px 0px;
+}
+.choose__inner_col p{
+    font-size: 18px;
+    color: #333333;
+    line-height: 1.6;
 }

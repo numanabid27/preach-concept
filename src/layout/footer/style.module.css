@@ -1,0 +1,24 @@
+.footer_bg{
+    background-color: #032D45;
+    padding: 61px 20px;
+}
+.footer_nav__row{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #FFFFFFB2;
+    padding-bottom: 16px;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.footer_navCol{
+    display: flex;
+    gap: 32px;
+}
+.footer_navLink ul{
+    display: flex;
+    gap: 32px;
+}
+.footer_navLink ul li a{
+    color: #FFFFFFB2;
+    font-size: 16px;
+}

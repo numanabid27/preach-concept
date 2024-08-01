@@ -1,0 +1,27 @@
+.partners_bg{
+    background-color: #F2F7FB;
+    padding: 46px 0;
+}
+.partners_bg h2{
+    text-align: center;
+    font-size: 28px;
+    color: #000000CC;
+    padding-bottom: 20px;
+}
+.partners_bg h2 span{
+    color: #005AAB;
+}
+.partners_bg p{
+    text-align: center;
+    color: #232323;
+    font-size: 18px;
+}
+.partners_row{
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+    margin-top: 48px;
+}
+.partners_row img{
+    width: fit-content;
+}

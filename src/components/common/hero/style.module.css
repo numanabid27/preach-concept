@@ -1,0 +1,30 @@
+.banner{
+    position: relative;
+}
+.banner_desc{
+    position: absolute;
+    max-width: 674px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: fit-content;
+}
+.banner_desc h1{
+    color: #fff;
+    font-size: 52px;
+}
+.banner_desc p{
+    color: #fff;
+    font-size: 18px;
+    padding: 17px 0;
+    line-height: 1.5;
+}
+.banner_desc button{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    font-size: 18px;
+    padding: 12px 20px;
+    border-radius: 6px;
+}

@@ -1,0 +1,47 @@
+.card_grid{
+    display: flex;
+    margin-top: 20px;
+    gap: 16px;
+}
+.serivces_row{
+    margin-top: 80px;
+}
+.serivces_row h2{
+    font-size: 28px;
+    color: #000000CC;
+    padding-bottom: 10px;
+}
+.serivces_row h2 span{
+    color:#005AAB
+}
+.serivces_col{
+    width: 24%;
+}
+.best_practice{
+    background-color: #012842;
+    margin: 80px 0;
+    padding: 67px 20px;
+}
+.best_practice_Row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+}
+.best_practice_col h2{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.best_practice_col h2 span{
+    color:#2F82C9
+}
+.best_practice_col p{
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.6;
+}
+.best_practice_col {
+    width: 44%;
+}

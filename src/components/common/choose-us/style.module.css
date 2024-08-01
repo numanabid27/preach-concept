@@ -1,0 +1,14 @@
+.choose_us h2{
+    font-size: 28px;
+    color: #000000CC;
+}
+.choose_us h2 span{
+    color:#005AAB
+}
+.choose_row{
+    display: flex;
+    margin-top: 25px;
+}
+.choose_col{
+    width: 49%;
+}

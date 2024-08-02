@@ -38,12 +38,11 @@ export function Contact() {
     ) {
       return setError(true);
     } else {
-      setIsLoading(true);
-      setError(false);
       setResponseMessage("");
-
+      setError(false);
+      setIsLoading(true);
       try {
-        await emailjs.sendForm(
+        const handleSubmit :any = await emailjs.sendForm(
           "service_u4vdakv",
           "template_p8kdkbc",
           form.current,
@@ -51,13 +50,21 @@ export function Contact() {
             publicKey: "tGYXxDed0VbL-UjJ-",
           }
         );
-        setResponseMessage("SUCCESS!");
-        e.target.reset();
+        if(handleSubmit.status === 200){
+          setResponseMessage("SUCCESS!");
+          setIsContact({
+            fname: "",
+            lname: "",
+            email: "",
+            message: "",
+          });
+          e.target.reset();
+        }
       } catch (error: any) {
         setResponseMessage(`FAILED... ${error.text}`);
       } finally {
         setIsLoading(false);
-        e.target.reset();
+       
       }
     }
   };

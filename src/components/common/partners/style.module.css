@@ -21,9 +21,15 @@
     justify-content: center;
     gap: 85px;
     margin-top: 48px;
+    align-items: center;
 }
 .partners_row img{
     width: fit-content;
+    transition: 0.4s;
+    transform: scale(1);
+}
+.partners_row img:hover{
+    transform: scale(1.25);
 }
 
 @media screen and (max-width:700px){

@@ -60,7 +60,7 @@
         width: 90%;
     }
     .banner_desc{
-        left: 1%;
+        left: 0%;
     }
 }
 @media screen and (max-width:700px){

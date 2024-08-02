@@ -11,6 +11,10 @@ import Image from "next/image";
 import practice from "@/assets/images/best-practice.png"
 import ChooseUs from "../common/choose-us";
 import { Partners } from "../common/partners";
+import web from "@/assets/images/web.svg";
+import sass from "@/assets/images/sass.svg";
+import mobile from "@/assets/images/mobile-app.svg";
+import ui from "@/assets/images/ui-ux.svg";
 
 export function Home() {
   const services_Data = [
@@ -40,22 +44,22 @@ export function Home() {
     {
       title: "Website Development",
       desc: "Crafting responsive, user-friendly websites that engage and convert.",
-      img: search,
+      img: web,
     },
     {
       title: "SaaS Web Applications",
       desc: "Building robust SaaS applications that scale seamlessly.",
-      img: project,
+      img: sass,
     },
     {
       title: "Mobile App Development",
       desc: "Creating intuitive mobile apps for both iOS and Android platforms.",
-      img: data,
+      img: mobile,
     },
     {
       title: "UI/UX Design",
       desc: "Designing captivating user interfaces and experiences that delight users.",
-      img: cost,
+      img: ui,
     },
   ]
   return (

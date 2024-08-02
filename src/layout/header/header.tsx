@@ -19,7 +19,41 @@ const Header = () => {
 
   return (
     <div className={styles.header_bg}>
-      {width && width > 700 ? (
+      {width && width < 700 ? (
+        <div className={styles.header_inner + " " + "container"}>
+          <div className={styles.logo}>
+            <Link href="/">
+              <Image src={logo} alt="" />
+            </Link>
+          </div>
+          <div onClick={() => setIsMobile(!isMobile)}>
+            {isMobile ? (
+              <Image src={close} alt="" width={23} height={23} />
+            ) : (
+              <Image src={menu} alt="" width={23} height={23} />
+            )}
+          </div>
+
+          {isMobile ? (
+            <div className={styles.list}>
+              <ul>
+                <li className={pathname == "/" ? styles.navActive : ""}>
+                  <Link href="/">Home</Link>
+                </li>
+                <li className={pathname == "/services" ? styles.navActive : ""}>
+                  <Link href="/services">Services</Link>
+                </li>
+                <li className={pathname == "/about" ? styles.navActive : ""}>
+                  <Link href="/about">About Us</Link>
+                </li>
+                <li className={pathname == "/contact" ? styles.navActive : ""}>
+                  <Link href="/contact">Contact Us</Link>
+                </li>
+              </ul>
+            </div>
+          ) : null}
+        </div>
+      ) : (
         <div className={styles.header_inner + " " + "container"}>
           <div className={styles.logo}>
             <Link href="/">
@@ -42,42 +76,6 @@ const Header = () => {
               </li>
             </ul>
           </div>
-        </div>
-      ) : (
-        <div className={styles.header_inner + " " + "container"}>
-          <div className={styles.logo}>
-            <Link href="/">
-              <Image src={logo} alt="" />
-            </Link>
-          </div>
-          {width && width > 700 ? (
-            <div onClick={() => setIsMobile(!isMobile)}>
-              {isMobile && isMobile ? (
-                <Image src={close} alt="" width={23} height={23} />
-              ) : (
-                <Image src={menu} alt="" width={23} height={23} />
-              )}
-            </div>
-          ) : null}
-
-          {isMobile ? (
-            <div className={styles.list}>
-              <ul>
-                <li className={pathname == "/" ? styles.navActive : ""}>
-                  <Link href="/">Home</Link>
-                </li>
-                <li className={pathname == "/services" ? styles.navActive : ""}>
-                  <Link href="/services">Services</Link>
-                </li>
-                <li className={pathname == "/about" ? styles.navActive : ""}>
-                  <Link href="/about">About Us</Link>
-                </li>
-                <li className={pathname == "/contact" ? styles.navActive : ""}>
-                  <Link href="/contact">Contact Us</Link>
-                </li>
-              </ul>
-            </div>
-          ) : null}
         </div>
       )}
     </div>

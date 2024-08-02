@@ -1,30 +1,80 @@
 .banner{
     position: relative;
 }
+.banner img{
+    object-fit: cover;
+}
 .banner_desc{
     position: absolute;
-    max-width: 674px;
-    left: 0;
+    max-width: 1180px;
+    left: 4%;
     top: 0;
     bottom: 0;
     margin: auto;
     height: fit-content;
+    width: 54%;
+    padding: 0 20px;
 }
 .banner_desc h1{
     color: #fff;
     font-size: 52px;
+    font-family: 'Gotham bold', sans-serif;
 }
 .banner_desc p{
     color: #fff;
     font-size: 18px;
-    padding: 17px 0;
+    padding: 24px 0;
     line-height: 1.5;
+   
 }
 .banner_desc button{
     color: #fff;
     background-color: transparent;
     border: 1px solid #fff;
     font-size: 18px;
-    padding: 12px 20px;
+    padding: 13px 26px;
     border-radius: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.banner_desc button:hover{
+    background-color: #005AAB;
+    border: 1px solid #005AAB;
+}
+
+@media screen and (max-width:1100px){
+    .banner_desc h1{
+        font-size: 40px;
+    }
+    .banner_desc{
+        width: 58%;
+    }
+
+}
+
+@media screen and (max-width:800px){
+    .banner_desc h1{
+        font-size: 34px;
+    }
+    .banner_desc{
+        width: 90%;
+    }
+    .banner_desc{
+        left: 1%;
+    }
+}
+@media screen and (max-width:700px){
+    .banner_desc h1{
+        font-size: 26px;
+        line-height: 1.2;
+    }
+    .banner_desc{
+        width: 100%;
+    }
+    .banner_desc p{
+        font-size: 16px;
+    }
+    .banner_desc button{
+        font-size: 16px;
+    }
 }

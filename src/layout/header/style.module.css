@@ -4,7 +4,8 @@
 }
 .header_inner{
     display:flex;
-    padding: 22px 0;
+    padding-top: 22px;
+    padding-bottom: 22px;
     justify-content: space-between;
     align-items: center;
 }
@@ -15,10 +16,81 @@
 .list ul li a{
     color: #232323;
     font-size: 18px;
+    transition: 0.4s;
+    font-family: 'Gotham reg', sans-serif; 
+    position: relative;
+}
+.list ul li a::after{
+    background-color: #005AAB;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    transition: 0.4s;
+    content: "";
+    bottom: -4px;
+}
+.list ul li a:hover::after{
+    width: 100%;
+    right: 0;
+}
+.navActive a{
+    position: relative;
+    color: #005AAB !important;
+}
+.navActive a::after{
+    background-color: #005AAB;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    transition: 0.4s;
+    content: "";
+    bottom: -4px;
+}
+.navActive a::after{
+    width: 100% !important;
+    right: 0;
+}
+
+
+
+.list ul li:last-child a::after{
+    position: unset;
+    background-color: transparent;
+}
+.list ul li a:hover{
+    color: #005AAB;
 }
 .list ul li:last-child a{
     background-color: #005AAB;
-    color: #fff;
+    color: #fff !important;
     padding: 11px 17px;
     border-radius: 8px;
+    border: 1px solid #005AAB;
+    transition: 0.4s;
+}
+.list ul li:last-child a:hover{
+    background-color: transparent;
+    border: 1px solid #005AAB;
+    color: #005AAB !important;
+}
+
+
+@media screen and (max-width:700px){
+    .list{
+        position: absolute;
+        background: #fff;
+        animation: 99;
+        top: 80px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .list ul{
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
 }

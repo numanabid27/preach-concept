@@ -1,0 +1,87 @@
+.card_grid{
+    display: flex;
+    margin-top: 20px;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.serivces_row{
+    margin-top: 80px;
+}
+
+.serivces_col{
+    width: 32%;
+}
+.preact_sec{
+    margin: 100px 0px;
+}
+.preact_sec h2{
+    font-size: 28px;
+    color: #000000CC;
+    text-align: center;
+}
+.preact_sec h2 span{
+    color:#005AAB
+}
+.services_info__row{
+    display: flex;
+    margin-top: 70px;
+    gap: 12px;
+}
+.services_info__col{
+    width: 47%;
+}
+.services_info__col2{
+    width: 53%;
+}
+.services_info__col2 img{
+    object-fit: contain;
+    height: fit-content;
+}
+.services_info__col h6{
+    font-size: 22px;
+    color: #333333;
+}
+.services_info__col p{
+    color: #333333;
+    padding: 18px 0;
+}
+.inner{
+    max-width: 400px;
+}
+.partner_Sec{
+    margin-top: 100px;
+}
+
+@media screen and (max-width:700px){
+    .card_grid{
+        flex-direction: column;
+    }
+    .serivces_col{
+        width: 100%;
+    }
+    .serivces_row{
+        margin-top: 60px;
+    }
+    .preact_sec h2{
+        font-size: 19px;
+    }
+    .preact_sec{
+        margin: 60px 0px;
+    }
+    .services_info__row{
+        flex-direction: column;
+    }
+    .services_info__col{
+        width: 100%;
+    }
+    .services_info__col2{
+        width: 100%;
+    }
+    .services_info__col h6{
+        font-size: 18px;
+    }
+    .partner_Sec{
+        margin-top: 80px;
+    }
+   
+}

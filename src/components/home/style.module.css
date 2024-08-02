@@ -48,3 +48,46 @@
 .partner_Sec{
     margin-top: 100px;
 }
+
+@media screen and (max-width:800px){
+    .card_grid{
+        flex-wrap: wrap;
+    }
+    .serivces_col{
+        width: 47%;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:700px){
+    .serivces_row h2{
+        font-size: 19px;
+    }
+    .serivces_row{
+        margin-top: 50px;
+    }
+    .card_grid{
+        flex-direction: column;
+    }
+    .serivces_col{
+        width: 100%;
+    }
+    .best_practice_Row{
+        flex-direction: column;
+    }
+    .best_practice_col{
+        width: 100%;
+    }
+    .best_practice_col2{
+        width: 100%;
+    }
+    .best_practice{
+        padding: 67px 0px;
+        margin: 60px 0;
+    }
+    .best_practice_col p{
+        font-size: 16px;
+    }
+    .partner_Sec{
+        margin-top:60px ;
+    }
+}

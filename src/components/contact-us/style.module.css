@@ -1,0 +1,72 @@
+.contact_sec{
+    margin: 70px 0px;
+}
+.contact_Form h2{
+    font-size: 48px;
+    color: #000000CC;
+    padding-bottom: 10px;
+}
+.contact_Form p{
+    color: #000000CC;
+}
+.form_row{
+    display: flex;
+    gap: 12px;
+    margin-top: 60px;
+}
+.contact_Form input,
+.contact_Form textarea{
+    width: 100%;
+    border: none;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 16px 16px;
+    outline: none;
+    resize: none;
+}
+.contact_Form label{
+    margin-top: 15px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form_col{
+    width: 50%;
+}
+.contact_Form button{
+    background-color: #005AAB;
+    color: #fff;
+    padding: 11px 17px;
+    border-radius: 8px;
+    border: 1px solid #005AAB;
+    transition: 0.4s;
+    margin-top: 20px;
+    font-family: 'Gotham reg', sans-serif;
+    cursor: pointer;
+}
+.partner_Sec{
+    margin-top: 100px;
+}
+.button-disabled{
+    background-color: #fff !important;
+}
+
+@media screen and (max-width:700px){
+    .contact_sec{
+        margin: 70px 0px;
+    }
+    .contact_Form h2{
+        font-size: 26px;
+    }
+    .form_row{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .form_col{
+        width: 100%;
+    }
+    .partner_Sec{
+        margin-top: 60px;
+    }
+}

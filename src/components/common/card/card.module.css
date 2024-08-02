@@ -18,3 +18,26 @@
     max-height: 71px;
     padding-bottom: 81px;
 }
+@media screen and (max-width:1100px){
+    .card h6{
+        color: #333333;
+        font-size: 18px;
+        padding: 12px 0px;
+        height: 63px;
+        display: flex;
+        align-items: center;
+    }
+    .card p{
+        padding-bottom: 105px;
+    }
+}
+
+@media screen and (max-width:700px){
+    .card h6{
+        height: unset;
+    }
+    .card p{
+        min-height: unset;
+        padding-bottom: unset;
+    }
+}

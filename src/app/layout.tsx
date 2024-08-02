@@ -6,10 +6,7 @@ import Header from "@/layout/header/header";
 import Footer from "@/layout/footer/footer";
 
 // const inter = Inter({ subsets: ["latin"] });
-const mulish = Mulish({
-  subsets: ["latin"],
 
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",

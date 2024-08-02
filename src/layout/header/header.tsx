@@ -11,11 +11,11 @@ import close from "@/assets/images/close.png";
 
 const Header = () => {
   const pathname = usePathname();
-  const [isMobile, setIsMobile] = useState<any>('');
+  const [isMobile, setIsMobile] = useState<any>("");
   const { width } = useDimensions();
-  useEffect(()=>{
-    setIsMobile(false)
-  },[pathname])
+  useEffect(() => {
+    setIsMobile(false);
+  }, [pathname]);
 
   return (
     <div className={styles.header_bg}>
@@ -50,17 +50,17 @@ const Header = () => {
               <Image src={logo} alt="" />
             </Link>
           </div>
+          {width && width > 700 ? (
+            <div onClick={() => setIsMobile(!isMobile)}>
+              {isMobile && isMobile ? (
+                <Image src={close} alt="" width={23} height={23} />
+              ) : (
+                <Image src={menu} alt="" width={23} height={23} />
+              )}
+            </div>
+          ) : null}
 
-          <div onClick={() => setIsMobile(!isMobile)}>
-            {
-              isMobile ?
-              <Image src={close} alt="" width={23} height={23} />
-              :
-              <Image src={menu} alt="" width={23} height={23} />
-            }
-            
-          </div>
-          {isMobile && (
+          {isMobile ? (
             <div className={styles.list}>
               <ul>
                 <li className={pathname == "/" ? styles.navActive : ""}>
@@ -77,7 +77,7 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-          )}
+          ) : null}
         </div>
       )}
     </div>

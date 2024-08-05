@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import React from 'react'
 
 export const metadata: Metadata = {
-  title: "Preach Concepts LLC | Services",
+  title: "Preach Technologies LLC | Services",
 };
 
 const ServciesPage = () => {

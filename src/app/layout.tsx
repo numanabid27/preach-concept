@@ -4,12 +4,13 @@ import { Mulish } from "next/font/google";
 import "./globals.css";
 import Header from "@/layout/header/header";
 import Footer from "@/layout/footer/footer";
+import Head from "next/head";
 
 // const inter = Inter({ subsets: ["latin"] });
 
 
 export const metadata: Metadata = {
-  title: "Preach Concepts | LLC",
+  title: "Preach Technologies | LLC",
 };
 
 export default function RootLayout({
@@ -19,6 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" >
+      <Head>
+        <link rel="icon" href="./../app/favicon.png" />
+      </Head>
       <body>
         <Header />
         {children}

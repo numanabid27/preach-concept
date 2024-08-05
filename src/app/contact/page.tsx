@@ -2,7 +2,7 @@ import { Contact } from '@/components/contact-us';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Preach Concepts LLC | Contact",
+  title: "Preach Technologies LLC | Contact",
 };
 
 const page = () => {

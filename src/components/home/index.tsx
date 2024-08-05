@@ -66,6 +66,7 @@ export function Home() {
     <>
       <Hero
         img={banner}
+        tagLine="Welcome to Preach Concepts LLC"
         title={
           <>
             Your Partner in <span style={{ color: "#005AAB" }}>SaaS</span>{" "}

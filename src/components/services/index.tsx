@@ -1,6 +1,6 @@
 import React from "react";
 import { Hero } from "../common/hero/hero";
-import banner from "@/assets/images/home-banner.png";
+import banner from "@/assets/images/services-banner.jpeg";
 import web from "@/assets/images/web.svg";
 import sass from "@/assets/images/sass.svg";
 import mobile from "@/assets/images/mobile-app.svg";

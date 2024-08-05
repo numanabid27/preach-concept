@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./style.module.css";
 import Image from "next/image";
-import logo from "@/assets/images/logo.svg";
+import logo from "@/assets/images/logo.png";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import useDimensions from "@/app/hooks/use-dimensation";
@@ -23,7 +23,7 @@ const Header = () => {
         <div className={styles.header_inner + " " + "container"}>
           <div className={styles.logo}>
             <Link href="/">
-              <Image src={logo} alt="" />
+              <Image src={logo} alt=""  />
             </Link>
           </div>
           <div onClick={() => setIsMobile(!isMobile)}>

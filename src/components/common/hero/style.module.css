@@ -2,8 +2,8 @@
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 115px 0;
-    background-position: center;
+    padding: 120px 0;
+    background-position: bottom center;
 }
 .banner img{
     object-fit: cover;
@@ -20,6 +20,11 @@
     color: #fff;
     font-size: 52px;
     font-family: 'Gotham bold', sans-serif;
+}
+.banner_desc h6{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
 }
 .banner_desc p{
     color: #fff;
@@ -80,6 +85,10 @@
         font-size: 16px;
     }
     .banner{
-       
+        padding: 70px 0;
+    }
+    .banner_desc h6{
+        font-size: 16px;
+        padding-bottom: 10px;
     }
 }

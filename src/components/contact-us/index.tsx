@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { Hero } from "../common/hero/hero";
-import banner from "../../assets/images/home-banner.png";
+import banner from "../../assets/images/contact-banner.png";
 import styles from "./style.module.css";
 import { Partners } from "../common/partners";
 import Error from "../common/error/error";

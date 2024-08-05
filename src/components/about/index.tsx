@@ -1,6 +1,6 @@
 import React from 'react'
 import { Hero } from '../common/hero/hero'
-import banner from "@/assets/images/home-banner.png";
+import banner from "@/assets/images/about-banner.png";
 import styles from "./style.module.css"
 import { Partners } from '../common/partners';
 

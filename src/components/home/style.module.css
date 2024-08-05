@@ -80,7 +80,6 @@
     margin: auto auto auto 0;
    position: absolute;
    z-index: 99;
-   height: 100vh;
    top: 0;
    bottom: 0;
 }

@@ -84,12 +84,11 @@
     .list{
         position: absolute;
         background: #fff;
-        animation: 99;
-        top: 80px;
+        z-index: 9999;
+        top: 77px;
         bottom: 0;
         right: 0;
         left: 0;
-        z-index: 99;
     }
     .list ul{
         display: flex;

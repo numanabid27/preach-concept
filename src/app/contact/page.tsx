@@ -1,6 +1,9 @@
-import { About } from '@/components/about'
-import { Contact } from '@/components/contact-us'
-import React from 'react'
+import { Contact } from '@/components/contact-us';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Preach Concepts LLC | Contact",
+};
 
 const page = () => {
   return (

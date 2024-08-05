@@ -76,7 +76,6 @@ export function Services() {
         }
         para="We offer a wide range of services tailored to meet diverse needs"
         button="Get In Touch"
-        contact={true}
       />
 
       <section className={styles.serivces_row + "" + " container"}>

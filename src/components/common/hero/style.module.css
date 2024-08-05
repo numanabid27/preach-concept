@@ -1,19 +1,20 @@
 .banner{
     position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 115px 0;
+    background-position: center;
 }
 .banner img{
     object-fit: cover;
 }
 .banner_desc{
-    position: absolute;
-    max-width: 1180px;
-    left: 4%;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    height: fit-content;
-    width: 54%;
-    padding: 0 20px;
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto auto auto 0;
+   
 }
 .banner_desc h1{
     color: #fff;
@@ -36,6 +37,7 @@
     border-radius: 6px;
     cursor: pointer;
     transition: 0.4s;
+    width: fit-content;
 }
 .banner_desc button:hover{
     background-color: #005AAB;
@@ -76,5 +78,8 @@
     }
     .banner_desc button{
         font-size: 16px;
+    }
+    .banner{
+       
     }
 }

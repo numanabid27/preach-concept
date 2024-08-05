@@ -4,8 +4,8 @@
 }
 .header_inner{
     display:flex;
-    padding-top: 22px;
-    padding-bottom: 22px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     justify-content: space-between;
     align-items: center;
 }

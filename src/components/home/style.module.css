@@ -48,6 +48,77 @@
 .partner_Sec{
     margin-top: 100px;
 }
+.video_sec{
+    height: calc(100vh - 88px);
+    position: relative;
+}
+.video_sec video{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+   
+}
+.video_sec::before{
+    background-color: rgba(0, 0, 0, 0.4);
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    z-index: 99;
+}
+.banner_desc{
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto auto auto 0;
+   position: absolute;
+   z-index: 99;
+   height: 100vh;
+   top: 0;
+   bottom: 0;
+}
+.banner_desc h1{
+    color: #fff;
+    font-size: 52px;
+    font-family: 'Gotham bold', sans-serif;
+}
+.banner_desc h6{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+}
+.banner_desc p{
+    color: #fff;
+    font-size: 18px;
+    padding: 24px 0;
+    line-height: 1.5;
+   
+}
+.banner_desc button{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    font-size: 18px;
+    padding: 13px 26px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+    width: fit-content;
+}
+.banner_desc button:hover{
+    background-color: #005AAB;
+    border: 1px solid #005AAB;
+}
+
+
+
 
 @media screen and (max-width:800px){
     .card_grid{

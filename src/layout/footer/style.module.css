@@ -20,6 +20,7 @@
 .footer_navLink ul li a{
     color: #FFFFFFB2;
     font-size: 16px;
+    line-height: 1.2;
 }
 .footer_bottom{
     display: flex;

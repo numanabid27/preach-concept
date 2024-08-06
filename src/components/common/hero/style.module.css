@@ -20,6 +20,7 @@
     color: #fff;
     font-size: 52px;
     font-family: 'Gotham bold', sans-serif;
+    line-height: 1.2;
 }
 .banner_desc h6{
     color: #fff;
@@ -29,7 +30,7 @@
 .banner_desc p{
     color: #fff;
     font-size: 18px;
-    padding: 24px 0;
+    padding:17px 0px 24px;
     line-height: 1.5;
    
 }

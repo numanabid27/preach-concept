@@ -71,4 +71,8 @@
     .partner_Sec{
         margin-top: 60px;
     }
+    .contact_Form input,
+    .contact_Form textarea{
+    margin-bottom: 12px;
+}
 }

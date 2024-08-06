@@ -47,7 +47,7 @@
     }
     .footer_navCol{
         gap: 18px;
-        justify-content: flex-end;
+        justify-content: center;
     }
     .footer_navCol img{
         width: fit-content;
@@ -57,5 +57,9 @@
     }
     .footer_bg{
         padding: 40px 10px;
+    }
+    .footer_navLink ul{
+        padding-left:0px ;
+        justify-content: center;
     }
 }

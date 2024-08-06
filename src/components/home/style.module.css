@@ -32,7 +32,8 @@
     color: #fff;
     font-size: 28px;
     font-weight: 500;
-    padding-bottom: 20px;
+    padding-bottom: 16px;
+    line-height: 1.4;
 }
 .best_practice_col h2 span{
     color:#2F82C9
@@ -149,7 +150,7 @@
 }
 @media screen and (max-width:700px){
     .serivces_row h2{
-        font-size: 19px;
+        font-size: 18px;
     }
     .serivces_row{
         margin-top: 50px;

@@ -24,6 +24,7 @@
     padding: 16px 16px;
     outline: none;
     resize: none;
+    margin-bottom: 10px;
 }
 .contact_Form label{
     margin-top: 15px;

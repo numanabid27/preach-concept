@@ -26,7 +26,7 @@ export default function ChooseUs() {
   return (
     <section className={styles.choose_us}>
         <div className='container'>
-            <h2>Why Choose <span>Preach Technologies</span> LLC?</h2>
+            <h2>Why Choose <span>Preach Technologies</span> ?</h2>
             <div className={styles.choose_row}>
                 <div className={styles.choose_col}>
                     <Image src={chooseUs} alt="" />

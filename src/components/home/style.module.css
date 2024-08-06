@@ -83,6 +83,7 @@
    top: 0;
    bottom: 0;
 }
+
 .banner_desc h1{
     color: #fff;
     font-size: 52px;
@@ -116,6 +117,14 @@
     border: 1px solid #005AAB;
 }
 
+@supports (-webkit-appearance: none) {
+    .banner_desc h1 {
+      line-height: 1.1; 
+    }
+    .banner_desc h6{
+        line-height: 1.4; 
+    }
+}
 
 @media screen and (max-width:1100px){
     .banner_desc h1{

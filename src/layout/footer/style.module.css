@@ -5,14 +5,13 @@
 .footer_nav__row{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #FFFFFFB2;
-    padding-bottom: 16px;
+   
     margin: 0 auto;
     max-width: 756px;
 }
 .footer_navCol{
     display: flex;
-    gap: 32px;
+    gap: 14px;
 }
 .footer_navLink ul{
     display: flex;

@@ -98,7 +98,7 @@ export function Services() {
       <section className={styles.preact_sec}>
         <div className="container">
           <h2>
-            Why Choose <span>Preach Technologies</span> LLC?
+            Why Choose <span>Preach Technologies</span> ?
           </h2>
           <div className={styles.services_info__row}>
             <div className={styles.services_info__col}>

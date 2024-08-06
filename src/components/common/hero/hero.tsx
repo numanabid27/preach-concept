@@ -9,7 +9,7 @@ export function Hero({ img, title, para, button, contact, tagLine }: any) {
   const imageUrl = img.src;
   const {width} = useDimensions();
   return (
-    <div className={styles.banner} style={{ backgroundImage: `linear-gradient(to right, #012842e8, rgb(10 35 64 / 34%)), url(${imageUrl})` }}>
+    <div className={styles.banner} style={{ backgroundImage: `linear-gradient(to right, rgb(0 0 0 / 71%), rgb(0 0 0 / 71%)), url(${imageUrl})` }}>
       {/* {
         width && width < 700 ?
         <Image src={img} alt="" style={{height: contact ? "50vh" : "80vh"}} />

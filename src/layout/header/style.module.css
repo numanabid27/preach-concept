@@ -1,7 +1,21 @@
 .header_bg {
-    background:#fff;
-   
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    transition: 0.4s;
 }
+.header_scrollbg{
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    transition: 0.4s;
+}
+
 .header_inner{
     display:flex;
     padding-top: 18px;
@@ -12,12 +26,20 @@
 .logo{
     width:18.5%;
 }
-.list ul{
+.list ul,
+.listScrollable ul{
     display: flex;
     gap: 30px;
 }
 .list ul li a{
-    color: #232323;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.4s;
+    font-family: 'Gotham reg', sans-serif; 
+    position: relative;
+}
+.listScrollable ul li a{
+    color: #232323 ;
     font-size: 18px;
     transition: 0.4s;
     font-family: 'Gotham reg', sans-serif; 
@@ -39,10 +61,10 @@
 }
 .navActive a{
     position: relative;
-    color: #005AAB !important;
+    color: #fff;
 }
 .navActive a::after{
-    background-color: #005AAB;
+    background-color: #fff !important;
     width: 0%;
     height: 2px;
     position: absolute;
@@ -55,20 +77,42 @@
     width: 100% !important;
     right: 0;
 }
+
 .logo img{
     width: 100%;
     height: 45px;
 }
+.navActive.navActive2 a{
+   color: #005AAB;
+}
+.navActive.navActive2 a::after{
+    background-color: #005AAB !important;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    transition: 0.4s;
+    content: "";
+    bottom: -4px;
+}
+.navActive.navActive2 a::after{
+    width: 100% !important;
+    right: 0;
+}
 
 
-.list ul li:last-child a::after{
+
+.list ul li:last-child a::after,
+.listScrollable ul li:last-child a::after{
     position: unset;
     background-color: transparent;
 }
-.list ul li a:hover{
+.list ul li a:hover,
+.listScrollable ul li a:hover{
     color: #005AAB;
 }
-.list ul li:last-child a{
+.list ul li:last-child a,
+.listScrollable ul li:last-child a{
     background-color: #005AAB;
     color: #fff !important;
     padding: 11px 17px;
@@ -76,15 +120,22 @@
     border: 1px solid #005AAB;
     transition: 0.4s;
 }
-.list ul li:last-child a:hover{
+
+.listScrollable ul li:last-child a:hover{
     background-color: transparent;
     border: 1px solid #005AAB;
+    color: #005AAB !important;
+}
+.list ul li:last-child a:hover{
+    background-color: #fff;
+    border: 1px solid #fff;
     color: #005AAB !important;
 }
 
 
 @media screen and (max-width:700px){
-    .list{
+    .list,
+    .listScrollable{
         position: absolute;
         background: #fff;
         z-index: 9999;
@@ -92,11 +143,17 @@
         bottom: 0;
         right: 0;
         left: 0;
+        height: fit-content;
     }
-    .list ul{
+    .list ul,
+    .listScrollable ul{
         display: flex;
         gap: 30px;
         flex-direction: column;
+    }
+    .list ul li a,
+    .listScrollable ul li a{
+        color: #232323;
     }
     .logo img{
         width: 100%;

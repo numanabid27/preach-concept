@@ -50,7 +50,7 @@
     margin-top: 100px;
 }
 .video_sec{
-    height: calc(100vh - 88px);
+    height: 100vh;
     position: relative;
 }
 .video_sec video{

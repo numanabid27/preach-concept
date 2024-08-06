@@ -54,19 +54,19 @@ const Header = () => {
           {isMobile ? (
             <div className={showDiv ? styles.listScrollable : styles.list}>
               <ul>
-                <li className={pathname == "/" && showDiv ? styles.navActive2 : styles.navActive}>
-                  <Link href="/">Home</Link>
-                </li>
-                <li className={pathname == "/services" ? styles.navActive : ""}>
-                  <Link href="/services">Services</Link>
-                </li>
-                <li className={pathname == "/about" ? styles.navActive : ""}>
-                  <Link href="/about">About Us</Link>
-                </li>
-                <li className={pathname == "/contact" ? styles.navActive : ""}>
-                  <Link href="/contact">Contact Us</Link>
-                </li>
-              </ul>
+              <li className={`${pathname == "/" ? styles.navActive : ""} ${showDiv ? styles.navActive2 : ""}`}>
+                <Link href="/">Home</Link>
+              </li>
+              <li className={`${pathname == "/services" ? styles.navActive : ""} ${showDiv ? styles.navActive2 : ""}`}>
+                <Link href="/services">Services</Link>
+              </li>
+              <li className={`${pathname == "/about" ? styles.navActive : ""} ${showDiv ? styles.navActive2 : ""}`}>
+                <Link href="/about">About Us</Link>
+              </li>
+              <li className={`${pathname == "/contact" ? styles.navActive : ""} ${showDiv ? styles.navActive2 : ""}`}>
+                <Link href="/contact">Contact Us</Link>
+              </li>
+            </ul>
             </div>
           ) : null}
         </div>

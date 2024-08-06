@@ -44,10 +44,11 @@
     margin-top: -41px;
     display: block;
     background: #fff;
-    width: fit-content;
-    padding: 4px 5px;
     line-height: 1.1;
     box-shadow: 0px -3px 5px #8080800f;
+    height: 31px;
+    padding: 8px 10px 0px;
+    width: fit-content;
 }
 .partner_Sec{
     margin-top: 100px;

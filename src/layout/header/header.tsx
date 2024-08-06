@@ -28,9 +28,9 @@ const Header = () => {
           </div>
           <div onClick={() => setIsMobile(!isMobile)}>
             {isMobile ? (
-              <Image src={close} alt="" width={23} height={23} />
+              <Image src={close} alt="" width={19} height={19} />
             ) : (
-              <Image src={menu} alt="" width={23} height={23} />
+              <Image src={menu} alt="" width={19} height={19} />
             )}
           </div>
 

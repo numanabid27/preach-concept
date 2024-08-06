@@ -73,8 +73,9 @@
     }
     .choose_col img{
         object-fit: contain;
-        width: fit-content;
-        height: unset;
+        margin: 0 auto;
+        display: block;
+        height: unset !important;
     }
     .choose__inner_col{
         text-align: center;

@@ -9,7 +9,7 @@
 .serivces_row h2{
     font-size: 28px;
     color: #000000CC;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 .serivces_row h2 span{
     color:#005AAB
@@ -88,7 +88,7 @@
     color: #fff;
     font-size: 52px;
     font-family: 'Gotham bold', sans-serif;
-    line-height: 1.2;
+    line-height: 1.1;
 }
 .banner_desc h6{
     color: #fff;

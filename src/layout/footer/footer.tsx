@@ -2,12 +2,8 @@ import React from 'react'
 import styles from "./style.module.css"
 import Image from 'next/image'
 import linkdin from "@/assets/images/social-3.svg"
-import twitter from "@/assets/images/social-2.svg"
 import insta from "@/assets/images/instagram.png"
 import Link from 'next/link'
-import one from "@/assets/images/contact-1.svg"
-import two from "@/assets/images/contact-2.svg"
-import three from "@/assets/images/contact-3.svg"
 
 const Footer = () => {
   return (

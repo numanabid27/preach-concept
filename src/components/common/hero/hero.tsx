@@ -3,6 +3,7 @@
 import React from "react";
 import styles from "./style.module.css";
 import useDimensions from "@/app/hooks/use-dimensation";
+import Link from "next/link";
 
 
 export function Hero({ img, title, para, button, contact, tagLine }: any) {
@@ -22,7 +23,7 @@ export function Hero({ img, title, para, button, contact, tagLine }: any) {
           <h6>{tagLine}</h6>
           <h1 style={{ textAlign: width < 700 && contact ? 'center' : 'unset' }}>{title}</h1>
           {para && <p>{para}</p>}
-          {button && <button>{button}</button>}
+          {button && <Link href="/contact">{button}</Link>}
         </div>
       </div>
     </div>

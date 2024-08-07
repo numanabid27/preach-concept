@@ -15,6 +15,7 @@ import web from "@/assets/images/web.svg";
 import sass from "@/assets/images/sass.svg";
 import mobile from "@/assets/images/mobile-app.svg";
 import ui from "@/assets/images/ui-ux.svg";
+import Link from "next/link";
 
 export function Home() {
   const services_Data = [
@@ -77,7 +78,7 @@ export function Home() {
             <h1>Your Partner in <span style={{ color: "#2F82C9" }}> SaaS </span>
              Product Management and Software Development</h1>
             <p>At Preach Technologies, we turn innovative ideas into successful, scalable products, ensuring market fit and top-notch development for competitive success.</p>
-            <button>Start Your Project Today</button>
+            <Link href="/contact">Start Your Project Today</Link>
           </div>
         </div>  
       </section>

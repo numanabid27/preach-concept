@@ -24,9 +24,7 @@ export function Partners() {
           <Link href="https://zeeframes.com/" target="_blank">
             <Image src={zee} alt="" />
           </Link>
-          <Link href="https://www.sync4tech.co/" target="_blank">
-            <Image src={sync} alt="" />
-          </Link>
+          
         </div>
       </div>
     </section>

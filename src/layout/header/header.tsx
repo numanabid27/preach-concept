@@ -9,6 +9,7 @@ import { usePathname } from "next/navigation";
 import useDimensions from "@/app/hooks/use-dimensation";
 import menu from "@/assets/images/menu.png";
 import close from "@/assets/images/close.png";
+import Wclose from "@/assets/images/scroll-cross.png";
 
 const Header = () => {
   const pathname = usePathname();
@@ -45,7 +46,7 @@ const Header = () => {
           </div>
           <div onClick={() => setIsMobile(!isMobile)}>
             {isMobile ? (
-              <Image src={close} alt="" width={19} height={19} style={{filter: !showDiv ? "brightness(100)" : "unset"}} />
+              <Image src={!showDiv ? Wclose : close} alt="" width={19} height={19}  />
             ) : (
               <Image src={menu} alt="" width={19} height={19} style={{filter: !showDiv ? "brightness(100)" : "unset"}} />
             )}

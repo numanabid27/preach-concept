@@ -34,7 +34,7 @@
     line-height: 1.5;
    
 }
-.banner_desc button{
+.banner_desc a{
     color: #fff;
     background-color: transparent;
     border: 1px solid #fff;
@@ -45,7 +45,7 @@
     transition: 0.4s;
     width: fit-content;
 }
-.banner_desc button:hover{
+.banner_desc a:hover{
     background-color: #005AAB;
     border: 1px solid #005AAB;
 }

@@ -39,11 +39,12 @@
     background-color: transparent;
     border: 1px solid #fff;
     font-size: 18px;
-    padding: 13px 26px;
+    padding: 1px 26px;
     border-radius: 6px;
     cursor: pointer;
     transition: 0.4s;
     width: fit-content;
+    line-height: 2.4;
 }
 .banner_desc a:hover{
     background-color: #005AAB;

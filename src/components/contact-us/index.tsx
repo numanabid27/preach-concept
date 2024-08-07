@@ -75,7 +75,7 @@ export function Contact() {
         img={banner}
         title={
           <>
-            Contact <span style={{ color: "#005AAB" }}>Us</span>
+            Contact <span style={{ color: "#2F82C9" }}>Us</span>
           </>
         }
         contact={true}

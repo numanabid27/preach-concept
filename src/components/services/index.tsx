@@ -71,7 +71,7 @@ export function Services() {
         img={banner}
         title={
           <>
-            Our <span style={{ color: "#005AAB" }}>Services</span>
+            Our <span style={{ color: "#2F82C9" }}>Services</span>
           </>
         }
         para="We offer a wide range of services tailored to meet diverse needs"

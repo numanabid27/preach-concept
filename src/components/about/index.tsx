@@ -28,7 +28,7 @@ export function About() {
             img={banner}
             title={
             <>
-                About <span style={{ color: "#005AAB" }}>Us</span>{" "}
+                About <span style={{ color: "#2F82C9" }}>Us</span>{" "}
 
             </>
             }

@@ -125,7 +125,8 @@
     bottom: 0;
     margin: auto;
     text-align: center;
-    height: 39px;
+    height: 49px;
+    padding-top: 8px;
     line-height: 2.2;
 }
 

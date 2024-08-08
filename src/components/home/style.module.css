@@ -116,6 +116,10 @@
     transition: 0.4s;
     width: fit-content;
     line-height: 2.4;
+    height: 48px;
+}
+.banner_desc a span{
+    padding-top: 17px;
 }
 .banner_desc a:hover{
     background-color: #005AAB;

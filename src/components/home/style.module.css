@@ -119,7 +119,8 @@
     height: 48px;
 }
 .banner_desc a span{
-    padding-top: 17px;
+    padding-top: 7px;
+    display: block;
 }
 .banner_desc a:hover{
     background-color: #005AAB;

@@ -34,23 +34,36 @@
     line-height: 1.5;
    
 }
-.banner_desc a{
-    color: #fff;
-    background-color: transparent;
+
+
+.button{
+    height: 48px;
+    position: relative;
     border: 1px solid #fff;
-    font-size: 18px;
-    padding: 1px 26px;
+    background-color: transparent;
+    max-width: 220px;
+    width: 100%;
     border-radius: 6px;
     cursor: pointer;
-    transition: 0.4s;
-    width: fit-content;
-    line-height: 2.4;
 }
-.banner_desc a:hover{
+.button a{
+    color: #fff;
+    font-size: 18px;
+    transition: 0.4s;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 15px;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    height: 49px;
+    line-height: 2.2;
+}
+.banner_desc .button:hover{
     background-color: #005AAB;
     border: 1px solid #005AAB;
 }
-
 @media screen and (max-width:1100px){
     .banner_desc h1{
         font-size: 40px;

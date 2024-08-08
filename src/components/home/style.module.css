@@ -112,14 +112,14 @@
     border-radius: 6px;
     cursor: pointer;
 }
-.banner_desc a{
+.button a{
     color: #fff;
     font-size: 18px;
     transition: 0.4s;
     position: absolute;
     right: 0;
     left: 0;
-    top: 8px;
+    top: 15px;
     bottom: 0;
     margin: auto;
     text-align: center;

@@ -23,7 +23,7 @@ export function Hero({ img, title, para, button, contact, tagLine }: any) {
           <h6>{tagLine}</h6>
           <h1 style={{ textAlign: width < 700 && contact ? 'center' : 'unset' }}>{title}</h1>
           {para && <p>{para}</p>}
-          {button && <Link href="/contact">{button}</Link>}
+          {button && <div className={styles.button}><Link href="/contact">{button}</Link></div>}
         </div>
       </div>
     </div>

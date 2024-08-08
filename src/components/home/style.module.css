@@ -103,34 +103,33 @@
     font-size: 18px;
     padding: 18px 0 24px;
     line-height: 1.5;
-   
+}
+.button{
+    height: 48px;
+    position: relative;
+    border: 1px solid #fff;
+    background-color: transparent;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
 }
 .banner_desc a{
     color: #fff;
-    background-color: transparent;
-    border: 1px solid #fff;
     font-size: 18px;
-    padding: 0px 26px 0px;
-    border-radius: 6px;
-    cursor: pointer;
     transition: 0.4s;
-    max-width: 300px;
-    height: 44px;
-    width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
     text-align: center;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    line-height: 2.4;
+    height: 39px;
+    line-height: 2.2;
 }
-.banner_desc a span{
-    display: flex;
-    height: 54px;
-    /* align-items: center;
-    height: 35px;
-    padding-top: 7px; */
-}
-.banner_desc a:hover{
+
+.banner_desc .button:hover{
     background-color: #005AAB;
     border: 1px solid #005AAB;
 }

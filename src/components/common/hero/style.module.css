@@ -53,11 +53,10 @@
     position: absolute;
     right: 0;
     left: 0;
-    top: 15px;
+    top: 7px;
     bottom: 0;
     margin: auto;
     text-align: center;
-    height: 49px;
     line-height: 2.2;
 }
 .banner_desc .button:hover{

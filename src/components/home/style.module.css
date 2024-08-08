@@ -124,6 +124,9 @@
     margin: auto;
     text-align: center;
     line-height: 2.2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .banner_desc .button:hover{

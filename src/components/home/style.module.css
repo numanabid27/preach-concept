@@ -121,12 +121,11 @@
     position: absolute;
     right: 0;
     left: 0;
-    top: 0;
+    top: 8px;
     bottom: 0;
     margin: auto;
     text-align: center;
     height: 49px;
-    padding-top: 8px;
     line-height: 2.2;
 }
 

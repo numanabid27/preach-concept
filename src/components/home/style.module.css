@@ -119,11 +119,10 @@
     position: absolute;
     right: 0;
     left: 0;
-    top: 15px;
+    top: 7px;
     bottom: 0;
     margin: auto;
     text-align: center;
-    height: 49px;
     line-height: 2.2;
 }
 
@@ -131,8 +130,6 @@
     background-color: #005AAB;
     border: 1px solid #005AAB;
 }
-
-
 
 @media screen and (max-width:1100px){
     .banner_desc h1{

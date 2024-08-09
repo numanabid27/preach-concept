@@ -78,9 +78,10 @@ export function Home() {
             <h1>Your Partner in <span style={{ color: "#2F82C9" }}> SaaS </span>
              Product Management and Software Development</h1>
             <p>At Preach Technologies, we turn innovative ideas into successful, scalable products, ensuring market fit and top-notch development for competitive success.</p>
-            <div className={styles.button}>
+            {/* <div className={styles.button}>
               <Link href="/contact">Start Your Project Today</Link>
-            </div>
+            </div> */}
+            <button>Start Your Project Today</button>
           </div>
         </div>  
       </section>

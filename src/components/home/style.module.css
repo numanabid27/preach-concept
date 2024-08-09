@@ -109,9 +109,10 @@
     border-radius: 6px;
     cursor: pointer;
     color: #fff;
-    line-height: 2.8;
-    padding: 2px 15px;
-
+    line-height: 2.6;
+    padding: 0px 34px;
+    color: #fff;
+    font-size: 18px;
 }
 .button{
     height: 48px;

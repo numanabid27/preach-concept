@@ -3,10 +3,12 @@
 import React from "react";
 import styles from "./style.module.css";
 import useDimensions from "@/app/hooks/use-dimensation";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
+
 
 
 export function Hero({ img, title, para, button, contact, tagLine }: any) {
+  const router = useRouter()
   const imageUrl = img.src;
   const {width} = useDimensions();
   return (
@@ -23,7 +25,7 @@ export function Hero({ img, title, para, button, contact, tagLine }: any) {
           <h6>{tagLine}</h6>
           <h1 style={{ textAlign: width < 700 && contact ? 'center' : 'unset' }}>{title}</h1>
           {para && <p>{para}</p>}
-          {button && <div className={styles.button}><Link href="/contact">{button}</Link></div>}
+          {button && <button onClick={()=>router.push('/contact')}>{button}</button>}
         </div>
       </div>
     </div>

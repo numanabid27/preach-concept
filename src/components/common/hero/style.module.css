@@ -34,7 +34,18 @@
     line-height: 1.5;
    
 }
-
+.banner_desc button{
+    border: 1px solid #fff;
+    background-color: transparent;
+    width: fit-content;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    line-height: 2.6;
+    padding: 0px 34px;
+    color: #fff;
+    font-size: 18px;
+}
 
 .button{
     height: 48px;

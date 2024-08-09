@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import { Hero } from "../common/hero/hero";
 import banner from "@/assets/images/home-banner.png";
@@ -15,9 +16,10 @@ import web from "@/assets/images/web.svg";
 import sass from "@/assets/images/sass.svg";
 import mobile from "@/assets/images/mobile-app.svg";
 import ui from "@/assets/images/ui-ux.svg";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export function Home() {
+  const router = useRouter()
   const services_Data = [
     {
       title: "Identify Product-Market Fi",
@@ -81,7 +83,7 @@ export function Home() {
             {/* <div className={styles.button}>
               <Link href="/contact">Start Your Project Today</Link>
             </div> */}
-            <button>Start Your Project Today</button>
+            <button onClick={()=>router.push('/contact')}>Start Your Project Today</button>
           </div>
         </div>  
       </section>

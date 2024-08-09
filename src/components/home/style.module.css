@@ -78,7 +78,7 @@
     margin: auto auto auto 0;
     position: absolute;
     z-index: 99;
-    top: 0;
+    top: 40px;
     bottom: 0;
     height: fit-content;
 }

@@ -45,6 +45,11 @@
     padding: 0px 34px;
     color: #fff;
     font-size: 18px;
+    transition: 0.4s;
+}
+.banner_desc button:hover{
+    background-color: #005AAB;
+    border: 1px solid #005AAB;
 }
 
 .button{
